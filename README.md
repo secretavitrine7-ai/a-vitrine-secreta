@@ -13,12 +13,17 @@ Site estático para uma vitrine de produtos com links de afiliado.
 
 ## Como adicionar produtos
 
-Duplique o bloco `<article class="product-card">` em `index.html` e altere:
+Duplique um bloco `<article class="product-card">` em `index.html` e altere:
 
 - imagem;
 - nome;
-- descrição;
-- categoria;
 - links de compra.
+
+Depois duplique também o bloco `<div class="image-modal">` correspondente ao
+produto e use um `id` único. O link da imagem do card deve apontar para esse
+mesmo `id`, por exemplo:
+
+- card: `href="#nome-do-produto"`;
+- modal: `id="nome-do-produto"`.
 
 O site não precisa de WordPress, plugins ou etapa de build.

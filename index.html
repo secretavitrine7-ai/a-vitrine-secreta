@@ -12,40 +12,70 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="nav" aria-label="Navegação principal">
-        <a class="brand" href="./" aria-label="A Vitrine Secreta">
-          <span class="brand-mark">AV</span>
-          <span>A Vitrine Secreta</span>
-        </a>
-        <a class="nav-link" href="#produtos">Produtos</a>
-      </nav>
-
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">Achados selecionados</p>
-        <h1 id="hero-title">A Vitrine Secreta</h1>
+    <div class="page-shell">
+      <header class="site-header">
+        <h1>A Vitrine Secreta</h1>
         <p>
-          Produtos inteligentes que facilitam o seu dia a dia, escolhidos com
-          foco em qualidade, praticidade e durabilidade.
+          Produtos inteligentes que facilitam o seu dia a dia.<br>
+          Selecionados com foco em qualidade, praticidade e durabilidade.
         </p>
-      </section>
-    </header>
+      </header>
 
-    <main>
-      <section id="produtos" class="products-section" aria-labelledby="products-title">
-        <div class="section-heading">
-          <p class="eyebrow">Vitrine</p>
-          <h2 id="products-title">Produtos em destaque</h2>
-        </div>
-
-        <div class="product-grid">
+      <main>
+        <section id="produtos" class="product-grid" aria-label="Grade de produtos">
           <article class="product-card">
             <a
               class="product-image-link"
-              href="https://meli.la/2THMb9h"
-              target="_blank"
-              rel="noopener sponsored"
-              aria-label="Ver Faqueiro Dourado Inox 24 Peças Luxo no Mercado Livre"
+              href="#cama-pet"
+              aria-label="Ampliar imagem da Cama Pet Suede Luxo"
+            >
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_2X_823496-MLA97356905113_112025-F.webp"
+                alt="Cama pet suede luxo lavável com fundo impermeável"
+                loading="lazy"
+              >
+            </a>
+
+            <h2 class="product-name">
+              Cama Pet Suede Luxo 60x50 Lavável com Fundo Impermeável
+            </h2>
+
+            <div class="store-box">
+              <p class="link-group-label">Produto original</p>
+              <a
+                class="store-link"
+                href="https://meli.la/2ACp4Gc"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
+                Mercado Livre
+              </a>
+
+              <p class="link-group-label has-space">Similar/genérico</p>
+              <a
+                class="store-link"
+                href="https://onelink.shein.com/5/5o3gw6s2b52l"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
+                Shein
+              </a>
+              <a
+                class="store-link"
+                href="https://s.shopee.com.br/1LcEiNT5Ud"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
+                Shopee
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <a
+              class="product-image-link"
+              href="#faqueiro-dourado"
+              aria-label="Ampliar imagem do Faqueiro Dourado Inox"
             >
               <img
                 src="https://http2.mlstatic.com/D_NQ_NP_2X_962331-MLB108088964426_032026-F.webp"
@@ -54,33 +84,99 @@
               >
             </a>
 
-            <div class="product-content">
-              <p class="product-category">Mesa posta</p>
-              <h3>Faqueiro Dourado Inox 24 Peças Luxo</h3>
-              <p class="product-description">
-                Um conjunto elegante para deixar a mesa mais sofisticada em
-                jantares, encontros e ocasiões especiais.
-              </p>
-            </div>
+            <h2 class="product-name">
+              Faqueiro Dourado Inox 24 Peças Luxo para Mesa Posta Sofisticada
+            </h2>
 
-            <div class="store-links" aria-label="Links de compra">
-              <a href="https://meli.la/2THMb9h" target="_blank" rel="noopener sponsored">
+            <div class="store-box">
+              <p class="link-group-label">Produto original</p>
+              <a
+                class="store-link"
+                href="https://meli.la/2THMb9h"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
                 Mercado Livre
               </a>
-              <a href="https://onelink.shein.com/5/5o3arl4nzp1a" target="_blank" rel="noopener sponsored">
+
+              <p class="link-group-label has-space">Similar/genérico</p>
+              <a
+                class="store-link"
+                href="https://onelink.shein.com/5/5o3arl4nzp1a"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
                 Shein
               </a>
-              <a href="https://s.shopee.com.br/9UxwMp9x8k" target="_blank" rel="noopener sponsored">
+              <a
+                class="store-link"
+                href="https://s.shopee.com.br/9UxwMp9x8k"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+              >
                 Shopee
               </a>
             </div>
           </article>
-        </div>
-      </section>
-    </main>
+        </section>
+      </main>
 
-    <footer class="site-footer">
-      <p>A Vitrine Secreta. Alguns links podem gerar comissão para o projeto.</p>
-    </footer>
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <h2>A Vitrine Secreta</h2>
+          <p>
+            Curadoria de produtos úteis, bonitos e funcionais para casa,
+            rotina, pets, organização e presentes.
+          </p>
+          <p>
+            Alguns links podem ser afiliados. Ao comprar por eles, você apoia
+            este projeto sem pagar nada a mais por isso.
+          </p>
+
+          <p class="social-title">Me acompanhe nas redes sociais</p>
+          <div class="social-links">
+            <a
+              class="social-link instagram"
+              href="https://www.instagram.com/a_vitrinesecreta/"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              Instagram
+            </a>
+            <a
+              class="social-link facebook"
+              href="https://www.facebook.com/profile.php?id=61588838883335"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              Facebook
+            </a>
+          </div>
+
+          <p class="fine-print">
+            Preços, disponibilidade e condições são definidos pelas lojas
+            parceiras e podem mudar sem aviso prévio.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <div id="cama-pet" class="image-modal" aria-label="Imagem ampliada da Cama Pet Suede Luxo">
+      <a class="modal-backdrop" href="#produtos" aria-label="Fechar imagem ampliada"></a>
+      <a class="modal-close" href="#produtos" aria-label="Fechar imagem ampliada">×</a>
+      <img
+        src="https://http2.mlstatic.com/D_NQ_NP_2X_823496-MLA97356905113_112025-F.webp"
+        alt="Cama pet suede luxo lavável com fundo impermeável ampliada"
+      >
+    </div>
+
+    <div id="faqueiro-dourado" class="image-modal" aria-label="Imagem ampliada do Faqueiro Dourado Inox">
+      <a class="modal-backdrop" href="#produtos" aria-label="Fechar imagem ampliada"></a>
+      <a class="modal-close" href="#produtos" aria-label="Fechar imagem ampliada">×</a>
+      <img
+        src="https://http2.mlstatic.com/D_NQ_NP_2X_962331-MLB108088964426_032026-F.webp"
+        alt="Faqueiro dourado inox com 24 peças ampliado"
+      >
+    </div>
   </body>
 </html>
